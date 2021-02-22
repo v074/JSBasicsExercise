@@ -34,8 +34,8 @@ console.log("I".length%"Am".length-"Iron".length%"Man".length);
 // B4: Using Index on each of the following strings, have AVENGERS display vertically in the console/terminal (Strings: “CAP” “VISION” “HAWKEYE” “NICK FURY” “GROOT” “DOCTOR STRANGE” “THOR” “STAR-LORD”).
 console.log("CAP"[1]);
 console.log("VISION"[0]);
-console.log(+"HAWKEYE"[6]);
-console.log(+"NICK FURY"[0]);
+console.log("HAWKEYE"[6]);
+console.log("NICK FURY"[0]);
 console.log("GROOT"[0]);
 console.log("DOCTOR STRANGE"[13]);
 console.log("THOR"[3]);
@@ -44,5 +44,5 @@ console.log("STAR-LORD"[0]);
 // B5: Create the following variables with the following values m=10 and c=5. Create a variable with the name of u and set the value for it by adding x and y together (NOTE: Must add variables not 10 + 5 when setting value for the u variable).
 var m=10;
 var c=5;
-u=m+c;
+var u=m+c;
 console.log(u);
